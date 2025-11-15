@@ -100,9 +100,9 @@ function showProjects(projects) {
     });
 }
 
-getProjects().then(data => {
-    showProjects(data);
-})
+//getProjects().then(data => {
+//    showProjects(data);
+//})
 // fetch projects end
 
 // Start of Tawk.to Live Chat
@@ -134,4 +134,5 @@ document.onkeydown = function (e) {
     if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
         return false;
     }
+
 }
